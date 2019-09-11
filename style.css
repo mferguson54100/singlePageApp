@@ -1,3 +1,22 @@
 /* body {
   font-family: "Roboto", sans-serif;
 } */
+
+html {
+  --primary: #6200ee;
+  --primary-variant: #3700b3;
+  --secondary: #03dac6;
+  --secondary-variant: #018786;
+  --error: #b00020;
+}
+
+header,
+section:nth-of-type(odd),
+footer {
+  background: var(--primary);
+}
+
+nav,
+section:nth-of-type(even) {
+  background: var(--secondary);
+}
