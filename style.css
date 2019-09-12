@@ -33,6 +33,8 @@ header {
 /* Space represents a GENERAL CHILD SELECTOR. */
 header img {
   border-radius: 50%;
+  box-shadow: calc(var(--base-spacing) * 0.5) calc(var(--base-spacing) * 0.5)
+    var(--base-spacing);
 }
 
 h1 {
