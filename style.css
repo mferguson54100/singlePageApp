@@ -20,3 +20,12 @@ nav,
 section:nth-of-type(even) {
   background: var(--secondary);
 }
+
+header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  text-align: center;
+}
