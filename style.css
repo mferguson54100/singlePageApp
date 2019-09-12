@@ -26,6 +26,12 @@ header {
   display: flex;
   flex-direction: column;
 }
+
+/* Space represents a GENERAL CHILD SELECTOR. */
+header img {
+  border-radius: 50%;
+}
+
 h1 {
   text-align: center;
 }
