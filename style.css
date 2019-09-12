@@ -73,6 +73,10 @@ nav a {
   text-decoration: none;
 }
 
+.fas {
+  font-size: 4em;
+}
+
 nav .fas {
   position: absolute;
   transform: translateX(calc(50vw - calc(var(--base-spacing) * 9)));
@@ -91,12 +95,15 @@ h3 {
   font-size: 1.953em;
 }
 
+.hero {
+  align-items: center;
+  display: flex;
+  height: 25vh;
+  justify-content: center;
+}
+
 .is-hidden {
   font-size: 0;
   height: 0;
 }
 
-/* Font Awesome */
-.fas {
-  font-size: 4em;
-}
