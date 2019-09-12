@@ -28,6 +28,7 @@ header {
   align-items: center;
   display: flex;
   flex-direction: column;
+  padding: calc(var(--base-spacing) * 2);
 }
 
 /* Space represents a GENERAL CHILD SELECTOR. */
@@ -37,6 +38,15 @@ header img {
     var(--base-spacing);
 }
 
+h1,
+h2,
+h3,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Type Scale Stuff */
 h1 {
   font-size: 3.052em;
   text-align: center;
