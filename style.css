@@ -97,6 +97,8 @@ h3 {
 
 .hero {
   align-items: center;
+  background: url(https://picsum.photos/900/600) no-repeat top center;
+  background-size: cover;
   display: flex;
   height: 25vh;
   justify-content: center;
@@ -106,4 +108,3 @@ h3 {
   font-size: 0;
   height: 0;
 }
-
