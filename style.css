@@ -13,6 +13,10 @@ html {
   font-size: 10px;
 }
 
+section {
+  padding: var(--base-spacing);
+}
+
 header,
 section:nth-of-type(odd),
 footer {
@@ -104,7 +108,12 @@ h3 {
   justify-content: center;
 }
 
-.hero a {
+.is-hidden {
+  font-size: 0;
+  height: 0;
+}
+
+.btn {
   background: var(--secondary);
   border-radius: var(--base-spacing);
   color: whitesmoke;
@@ -113,7 +122,9 @@ h3 {
   text-transform: uppercase;
 }
 
-.is-hidden {
-  font-size: 0;
-  height: 0;
+section .btn {
+  background: yellow;
+  color: black;
+  display: inline-block;
+  margin: var(--base-spacing) 0;
 }
