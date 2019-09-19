@@ -159,6 +159,11 @@ footer p {
     flex-direction: row;
   }
 
+  .hero {
+    background-image: url(https://picsum.photos/1920/1080);
+    min-height: 50vh;
+  }
+
   .flex--desktop {
     display: flex;
   }
