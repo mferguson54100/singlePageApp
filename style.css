@@ -108,7 +108,7 @@ h3 {
   justify-content: center;
 }
 
-.is-hidden {
+.is-hidden--mobile {
   font-size: 0;
   height: 0;
 }
@@ -157,5 +157,23 @@ footer p {
 @media screen and (min-width: 1200px) {
   header {
     flex-direction: row;
+  }
+
+  .flex--desktop {
+    display: flex;
+  }
+
+  .justify-space-around--desktop {
+    justify-content: space-around;
+  }
+
+  .is-hidden--desktop {
+    font-size: 0;
+    height: 0;
+  }
+
+  .is-shown--desktop {
+    font-size: initial;
+    height: initial;
   }
 }
