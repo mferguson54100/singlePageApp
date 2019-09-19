@@ -128,3 +128,22 @@ section .btn {
   display: inline-block;
   margin: var(--base-spacing) 0;
 }
+
+footer,
+footer a {
+  color: white;
+}
+
+footer {
+  color: white;
+  padding: calc(var(--base-spacing) * 2);
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer p {
+  margin-top: 0;
+}
