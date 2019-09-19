@@ -153,3 +153,9 @@ footer p {
     justify-content: space-between;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  header {
+    flex-direction: row;
+  }
+}
