@@ -2,18 +2,18 @@
 
 // Function Expression - we specify NAMED PARAMETERS which are assigned values based on ARGUMENTS that we pass upon INVOCATION
 function numberSummer(start, end) {
-  console.log('start value is:', start);
-  console.log('end value type is:', typeof end);
+  let sum = 0;
 
+  for(let i = start; i <= end; i += 1) {
+    sum += i;
+  }
 
+  // Without an EXPLICIT `return`, a function will return `undefined`
+  return sum;
 }
 
-numberSummer();
+// INVOCATION occurs and we pass in ARGUMENTS to satisfy the FUNCTION EXPRESSION'S PARAMETERS.
+console.log(numberSummer(1, 10));
 
-// `for` allows us to lose 1 global variable which becomes managed by the `for` loop.
-// (initializer/declaration; exit condition; iteration;)
-// for(let i = 1; i <= 10; i += 1) {
-//   sum += i;
-// }
-
-// console.log(sum);
+// const results = numberSummer(1, 10);
+// console.log(results);
