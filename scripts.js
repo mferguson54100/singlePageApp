@@ -1,10 +1,11 @@
 // TODO: Sum the numbers from 1 to 10
-let i = 1;
+// keyword - expression in parentheses - {}
 let sum = 0;
 
-while(i <= 10) {
-  sum += i; // sum = sum + i
-  i += 1; // i = i + 1;
+// `for` allows us to lose 1 global variable which becomes managed by the `for` loop.
+// (initializer/declaration; exit condition; iteration;)
+for(let i = 1; i <= 10; i += 1) {
+  sum += i;
 }
 
 console.log(sum);
