@@ -33,9 +33,23 @@ section:nth-of-type(even) {
   background: var(--secondary);
 }
 
+label,
+input {
+  margin: var(--base-spacing) 0;
+}
+
+input {
+  width: 80vw;
+}
+
+header,
+form,
+input[type="select"] {
+  display: flex;
+}
+
 header {
   align-items: center;
-  display: flex;
   flex-direction: column;
 }
 
@@ -69,7 +83,8 @@ nav li {
 
 nav,
 p,
-a {
+a,
+label {
   font-size: 1.563em;
 }
 
@@ -97,6 +112,16 @@ h2 {
 
 h3 {
   font-size: 1.953em;
+}
+
+form {
+  flex-direction: column;
+  padding: calc(var(--base-spacing) * 2);
+}
+
+input[type="submit"] {
+  justify-content: center;
+  width: calc(var(--base-spacing) * 10);
 }
 
 .hero {
