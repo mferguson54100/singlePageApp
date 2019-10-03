@@ -1,8 +1,3 @@
-/**
- *
- * 3.
- */
-
 const burger = document.querySelector('.fa-hamburger');
 const ul = document.querySelector('nav ul');
 
