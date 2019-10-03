@@ -1,10 +1,11 @@
 /**
  *
- * 3. Toggle the class 'is-hidden'
+ * 3.
  */
 
- const burger = document.querySelector('.fa-hamburger');
+const burger = document.querySelector('.fa-hamburger');
+const ul = document.querySelector('nav ul');
 
- burger.addEventListener('click', () => {
-  console.log('hamburger was clicked');
- });
+burger.addEventListener('click', () => {
+  ul.classList.toggle('is-hidden--mobile');
+});
