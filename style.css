@@ -174,7 +174,23 @@ footer p {
 }
 
 @media screen and (min-width: 768px) {
+  form > div div {
+    max-width: 30vw;
+  }
+
+  input {
+    width: 93%;
+  }
+
   footer ul {
+    justify-content: space-between;
+  }
+
+  .flex--tablet {
+    display: flex;
+  }
+
+  .justify-content-space-between--tablet {
     justify-content: space-between;
   }
 }
