@@ -38,8 +38,9 @@ input {
   margin: var(--base-spacing) 0;
 }
 
-input {
-  width: 80vw;
+input,
+textarea {
+  border-radius: 3px;
 }
 
 header,
@@ -180,6 +181,11 @@ footer p {
 
   input {
     width: 93%;
+  }
+
+  textarea {
+    max-width: 800px;
+    width: 90vw;
   }
 
   footer ul {
