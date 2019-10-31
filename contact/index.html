@@ -52,7 +52,10 @@
     </nav>
 
     <main>
-      <form action="#">
+      <!-- By default, method is GET.
+        We add a DATA ATTRIBUTE with a name of netlify and a value of true.
+      -->
+      <form name="contact" method="POST" data-netlify="true">
         <div class="flex--tablet">
           <div>
             <label for="name">Enter your name:</label>
